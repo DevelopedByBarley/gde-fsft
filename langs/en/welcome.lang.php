@@ -70,6 +70,8 @@ The conference contributes to strengthening professional discourse in the fields
         'submit' => 'Submit',
         'help_text' => 'If you have any questions or issues, please write to:',
         'help_email' => 'support@gde.example',
+        'horizons_info' => 'If you would like to register for our other events as well, please visit the',
+        'horizons_link_label' => 'GDE Horizons website',
         'already_subscribed' => 'You have already subscribed to the following conferences: ',
         'subscription_success' => 'Subscription created successfully!',
         'subscription_failed' => 'Subscription could not be created. Please try again later.',
@@ -77,6 +79,7 @@ The conference contributes to strengthening professional discourse in the fields
         'conf_items' => [
             [
                 'title' => 'The Future of Security The Future of Trust',
+                'simple_title' => 'Information Security',
                 'value' => 'information_security',
                 'meta' => 'FSFT2026',
                 'date' => 'May 19',
@@ -85,14 +88,16 @@ The conference contributes to strengthening professional discourse in the fields
         ],
         'all_conf_items' => [
             [
-                'title' => 'The Future of Intelligence The Future of Applications',
+                'title' => 'The Future of Intelligence The Future of Implementations',
+                'simple_title' => 'Artificial Intelligence',
                 'value' => 'artificial_intelligence',
-                'meta' => 'FIFA2026',
+                'meta' => 'FIFI2026',
                 'date' => 'May 18',
                 'fileName' => 'ai.png',
             ],
             [
                 'title' => 'The Future of Security The Future of Trust',
+                'simple_title' => 'Information Security',
                 'value' => 'information_security',
                 'meta' => 'FSFT2026',
                 'date' => 'May 19',
@@ -100,6 +105,7 @@ The conference contributes to strengthening professional discourse in the fields
             ],
             [
                 'title' => 'The Future of Dronedata The Future of Vision',
+                'simple_title' => 'Drone Technology',
                 'value' => 'drone_technology',
                 'meta' => 'FDFV2026',
                 'date' => 'May 20',
@@ -107,6 +113,7 @@ The conference contributes to strengthening professional discourse in the fields
             ],
             [
                 'title' => 'The Future of Teaching The Future of Learning',
+                'simple_title' => 'Teaching Methodology',
                 'value' => 'ftfl',
                 'meta' => 'FTFL2026',
                 'date' => 'May 21',
@@ -300,15 +307,25 @@ The event supports interdisciplinary professional dialogue based on academic and
     ],
     'footer' => [
         'about_title' => 'Gabor Denes University',
-        'about_text' => 'The GDE International Science Summit brings together researchers, industry leaders, and innovators to present the future of technology and science.',
-        'quick_links' => 'Quick links',
+        'about_text' => 'The GDE  Digital Horizons Week brings together researchers, industry leaders, and innovators to showcase the future of technology and science.',
+        'quick_links' => 'Quick Links',
         'links' => [
-            'home' => 'Home',
-            'registration' => 'Registration',
-            'speakers' => 'Speakers',
-            'contact' => 'Contact',
-            'privacy' => 'Privacy policy',
-            'terms' => 'Terms and Conditions',
+            'home' => [
+                'label' => 'Home',
+                'url' => '/',
+            ],
+            'registration' => [
+                'label' => 'Registration',
+                'url' => '/subscription',
+            ],
+            'privacy' => [
+                'label' => 'Privacy Policy',
+                'url' => '/privacy',
+            ],
+            'terms' => [
+                'label' => 'Terms and Conditions',
+                'url' => '/terms',
+            ],
         ],
         'contact_title' => 'Contact',
         'contact_city' => 'Budapest, HU',
@@ -318,16 +335,6 @@ The event supports interdisciplinary professional dialogue based on academic and
         'newsletter_text' => 'Get updates about conference news.',
         'newsletter_placeholder' => 'Email address',
         'newsletter_button' => 'Subscribe',
-        'copyright' => '© 2026 GDE International Science Summit',
-        'quick_order' => [
-            'home',
-            'registration',
-            'speakers',
-            'contact',
-        ],
-        'legal_order' => [
-            'privacy',
-            'terms',
-        ],
+        'copyright' => '(c) 2026 GDE  Digital Horizons Week',
     ],
 ];
