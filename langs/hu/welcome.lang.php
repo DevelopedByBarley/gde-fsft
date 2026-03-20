@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'privacy_policy' => 'privacy_policy_hu.pdf',
     'hero' => [
         'title' => 'FSFT',
         'subtitle' => '',
@@ -66,12 +67,12 @@ A konferencia hozzájárul az e-learning és az oktatásmódszertan területén 
         'company' => 'Cég / Egyetem',
         'phone' => 'Telefonszám',
         'select_conferences' => 'Válaszd ki, mely konferenciákon vennél részt',
-        'agree' => 'Elfogadom az ÁSZF-et',
+        'agree' => 'Elfogadom az <a href="/public/documents/adatkezeles_hu.pdf" target="_blank">Adatkezelési Szabályzatot</a>',
         'submit' => 'Küldés',
         'horizons_info' => 'Amennyiben szeretne jelentkezni további eseményeinkre is, kérjük látogasson el a',
         'horizons_link_label' => 'GDE Horizons oldalára',
         'help_text' => 'Ha bármilyen kérdés vagy probléma felmerülne, írjanak ide:',
-        'help_text' => 'Ha bármilyen kérdés vagy probléma felmerülne, írjanak ide:',
+        'help_email' => 'support@gde.example',
         'already_subscribed' => 'Ön már regisztrált a következő konferenciákra: ',
         'subscription_success' => 'Sikeres regisztráció!',
         'subscription_failed' => 'A regisztráció nem sikerült. Kérjük, próbálja újra később.',
@@ -82,7 +83,7 @@ A konferencia hozzájárul az e-learning és az oktatásmódszertan területén 
                 'simple_title' => 'Information Security',
                 'value' => 'information_security',
                 'meta' => 'FSFT2026',
-                'date' => 'Május 19',
+                'date' => 'Május 19.',
                 'fileName' => 'secure_1.png',
             ],
         ],
@@ -194,17 +195,33 @@ A konferencia hozzájárul az e-learning és az oktatásmódszertan területén 
         ],
     ],
     'landing' => [
+        'alert' => [
+            'title' => 'Felhívás előadóknak és szakmai résztvevőknek',
+            'body' => 'Az FTFL2026 konferencia a Dennis Gabor Digital Horizons Week keretében kerül megrendezésre, és fórumot biztosít az oktatás és a tanulás digitális átalakulásával kapcsolatos kutatási eredmények és gyakorlati tapasztalatok bemutatására. A konferencián <b class="fw-bold">személyes és online formában</b> is részt lehet venni, valamint előadást tartani. Várjuk előadók, kiállítók és szakmai érdeklődők jelentkezését!
+            <br> <br>
+                Az <b class="fw-bold">előadói és kiállítói</b> jelentkezéseket a szervezők <b class="fw-bold">2026. április 20-ig</b> várják. A <b class="fw-bold">részvételi regisztráció</b> személyes jelenlét esetén a rendelkezésre álló férőhelyek függvényében biztosított, online formában pedig folyamatosan elérhető.
+            <br>
+            <br>
+            A konferencián lehetőség nyílik az alábbi munkák bemutatására széles körű szakmai közönség előtt:',
+            'list' => [
+                'Tudományos publikációk és kutatási eredmények',
+                'Esettanulmányok és gyakorlati alkalmazások',
+                'Folyamatban lévő kutatási projektek',
+                'Doktori kutatások és disszertációs témák',
+                'Poszterbemutatók',
+            ],
+        ],
         'hero' => [
             'title' => 'FSFT2026',
             'subtitle' => 'The Future of Security The Future of Trust',
-            'subsubtitle' => 'International Conference on Cybersecurity and Digital Resilience',
+            'subsubtitle' => 'Adatvédelem és Információbiztonsági konferencia',
             'description' => 'Az konferencia célja az oktatás és a tanulás területén zajló digitális és módszertani változások tudományos vizsgálata.
 A rendezvény fórumot biztosít az oktatók, kutatók és gyakorlati szakemberek számára a mesterséges intelligencia és más modern technológiák oktatási alkalmazásával kapcsolatos tapasztalatok és eredmények megosztására.
 A konferencia hozzájárul az e-learning és az oktatásmódszertan területén kialakuló szakmai diskurzus megerősítéséhez.',
             'date' => '2026. Május 19.',
             'location' => 'Gábor Dénes Egyetem, Budapest',
             'language' => 'HU / EN',
-            'cta' => 'View full Summit',
+            'cta' => 'Teljes konferencia hét megtekintése',
         ],
         'topics' => [
             'title' => 'Konferencia témái',
@@ -304,6 +321,7 @@ A konferencia hozzájárul az e-learning és az oktatásmódszertan területén 
                 ],
             ],
         ],
+        'youtube_label' => 'Ilyen volt az FTFL2025 konferencia:',
     ],
     'footer' => [
         'about_title' => 'Gábor Dénes Egyetem',

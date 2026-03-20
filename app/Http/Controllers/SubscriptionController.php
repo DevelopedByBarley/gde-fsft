@@ -15,7 +15,7 @@ class SubscriptionController extends Controller
     'ai' => 'https://aikonferencia.gde.hu/absztrakt',
     'ftfl' => 'https://ftfl.gde.hu/absztrakt',
     'drone' => 'https://dronkonferencia.gde.hu/absztrakt',
-    'fsft' => 'https://informaciobiztonsag.gde.hu/absztrakt',
+    'fsft' => 'https://fsft.gde.hu/absztrakt',
   ];
   private $short_map = [
     'artificial_intelligence' => 'FIFI',

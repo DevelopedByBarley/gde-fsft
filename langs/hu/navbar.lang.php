@@ -6,6 +6,10 @@ return [
   ],
   'topics' => [
     [
+      'label' => 'NIS2 2024',
+      'url' => 'https://gde.hu/hir/ordoglakat-minikonferencia',
+    ],
+    [
       'label' => 'AI',
       'url' => '#ai',
     ],
@@ -16,10 +20,6 @@ return [
     [
       'label' => 'Dróntechnológia',
       'url' => '#drontechnologia',
-    ],
-    [
-      'label' => 'Információbiztonság',
-      'url' => '#informaciobiztonsag',
     ],
   ],
 ];

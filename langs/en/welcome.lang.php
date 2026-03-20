@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'privacy_policy' => 'adatkezeles_en.pdf',
     'hero' => [
         'title' => 'FSFT',
         'subtitle' => '',
@@ -36,17 +37,17 @@ The conference contributes to strengthening professional discourse in the fields
     ],
     'conference_cards' => [
         [
-            'date' => '19 May 2026',
+            'date' => '19th May, 2026',
             'title' => 'Day 1 - Hardware and Innovation',
             'description' => 'Opening ceremony, keynote presentations on the latest drone technologies, workshop sessions.',
         ],
         [
-            'date' => '19 May 2026',
+            'date' => '19th May, 2026',
             'title' => 'Day 2 - Applications and Business',
             'description' => 'Industrial case studies, startup pitches, sector-specific networking sessions.',
         ],
         [
-            'date' => '19 May 2026',
+            'date' => '19th May, 2026',
             'title' => 'Day 3 - Regulation and the Future',
             'description' => 'Panel discussions, legal workshop, closing keynote, and networking gala.',
         ],
@@ -66,7 +67,7 @@ The conference contributes to strengthening professional discourse in the fields
         'company' => 'Company / University',
         'phone' => 'Phone number',
         'select_conferences' => 'Select the conferences you would like to attend',
-        'agree' => 'I agree to the terms and conditions',
+        'agree' => 'I agree to the <a href="/public/documents/adatkezeles_en.pdf" target="_blank">Privacy Policy</a>',
         'submit' => 'Submit',
         'help_text' => 'If you have any questions or issues, please write to:',
         'help_email' => 'support@gde.example',
@@ -82,7 +83,7 @@ The conference contributes to strengthening professional discourse in the fields
                 'simple_title' => 'Information Security',
                 'value' => 'information_security',
                 'meta' => 'FSFT2026',
-                'date' => 'May 19',
+                'date' => '19th May',
                 'fileName' => 'secure_1.png',
             ],
         ],
@@ -194,6 +195,22 @@ The conference contributes to strengthening professional discourse in the fields
         ],
     ],
     'landing' => [
+        'alert' => [
+            'title' => 'Call for Speakers and Professional Participants',
+            'body' => 'The FTFL2026 conference will be held as part of the Dennis Gabor Digital Horizons Week, providing a forum for presenting research results and practical experiences related to the digital transformation of education and learning. Participation and presentations are possible both <b class="fw-bold">in person and online</b>. We welcome applications from speakers, exhibitors, and professional attendees!
+            <br> <br>
+                Applications for <b class="fw-bold">speakers and exhibitors</b> are accepted by the organizers until <b class="fw-bold">20 April 2026</b>. <b class="fw-bold">Participant registration</b> for in-person attendance is subject to available capacity, while online participation remains continuously available.
+            <br>
+            <br>
+            The conference offers the opportunity to present the following works to a broad professional audience:',
+            'list' => [
+                'Scientific publications and research results',
+                'Case studies and practical applications',
+                'Ongoing research projects',
+                'Doctoral research and dissertation topics',
+                'Poster presentations',
+            ],
+        ],
         'hero' => [
             'title' => 'FSFT2026',
             'subtitle' => 'The Future of Security The Future of Trust',
@@ -201,10 +218,10 @@ The conference contributes to strengthening professional discourse in the fields
             'description' => 'The conference aims to provide a scientific examination of digital and methodological changes in education and learning.
 The event offers a forum for educators, researchers, and practitioners to share experiences and results related to the educational use of artificial intelligence and other modern technologies.
 The conference contributes to strengthening professional discourse in the fields of e-learning and pedagogy.',
-            'date' => '19 May 2026',
+            'date' => '19th May, 2026',
             'location' => 'Dennis Gabor University, Budapest',
             'language' => 'HU / EN',
-            'cta' => 'View full Summit',
+            'cta' => 'View full conference week',
         ],
         'topics' => [
             'title' => 'Conference topics',
@@ -250,7 +267,7 @@ The event supports interdisciplinary professional dialogue based on academic and
                     'description' => 'Opening ceremony, keynote presentations on the latest drone technologies, workshop sessions',
                 ],
                 [
-                    'date' => '19 May 2026',
+                    'date' => '19th May, 2026',
                     'time' => '09:00 - 17:00',
                     'title' => 'Day 2 - Applications and Business',
                     'description' => 'Industrial case studies, startup pitches, sector-specific networking sessions',
@@ -304,6 +321,7 @@ The event supports interdisciplinary professional dialogue based on academic and
                 ],
             ],
         ],
+        'youtube_label' => 'This is what the FTFL2025 conference was like:',
     ],
     'footer' => [
         'about_title' => 'Gabor Denes University',

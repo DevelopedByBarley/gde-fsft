@@ -29,6 +29,7 @@
                                         <th>Email</th>
                                         <th>Típus</th>
                                         <th>Fájl</th>
+                                        <th>Eredeti fájl neve</th>
                                         <th>Létrehozva</th>
                                         <th class="text-end">Műveletek</th>
                                     </tr>
@@ -51,12 +52,16 @@
                                             </span>
                                         </td>
                                         <td>
-                                            <?= htmlspecialchars($abstract->originalFileName ?? $abstract->fileName ?? '—') ?>
+                                            <?= htmlspecialchars($abstract->fileName ?? '—') ?>
+                                        </td>
+                                        <td>
+                                            <?= htmlspecialchars($abstract->originalFileName ?? '—') ?>
                                         </td>
                                         <td><?= !empty($abstract->created_at) ? date('Y.m.d H:i', strtotime($abstract->created_at)) : '—' ?>
                                         </td>
                                         <td class="text-end">
-                                            <a href="/admin/abstracts/download/<?= $abstract->id ?>" class="btn btn-outline-primary btn-sm">
+                                            <a href="/admin/abstracts/download/<?= $abstract->id ?>"
+                                                class="btn btn-outline-primary btn-sm">
                                                 <i class="bi bi-download"></i>
                                             </a>
                                         </td>
